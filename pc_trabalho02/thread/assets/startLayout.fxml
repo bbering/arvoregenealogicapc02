@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.mainController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="imgBackground" fitHeight="400.0" fitWidth="600.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@familytree.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgPai" fitHeight="80.0" fitWidth="80.0" layoutX="250.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@baby.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgFilho3" fitHeight="80.0" fitWidth="80.0" layoutX="258.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@baby.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="buttonStart" layoutX="522.0" layoutY="356.0" mnemonicParsing="false" onAction="#clickButtonStart" stylesheets="@../css/style.css" text="Iniciar">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="14.0" />
+               </font></Button>
+            <Text fx:id="txtPai" layoutX="271.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="88.994140625" AnchorPane.leftAnchor="271.0">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="imgFilho1" fitHeight="80.0" fitWidth="80.0" layoutX="346.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@baby.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="txtFilho1" layoutX="367.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="76.0">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="imgFilho2" fitHeight="80.0" fitWidth="80.0" layoutX="159.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@baby.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="txtFilho2" layoutX="179.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="128.994140625">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="txtFilho3" layoutX="279.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="128.994140625">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="imgNeto" fitHeight="80.0" fitWidth="80.0" layoutX="130.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@baby.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="txtNeto" layoutX="152.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="128.994140625">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="imgNeto2" fitHeight="80.0" fitWidth="80.0" layoutX="346.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@baby.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="txtNeto2" layoutX="367.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="128.994140625">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="imgBisneto" fitHeight="80.0" fitWidth="80.0" layoutX="228.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@baby.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="txtBisneto" layoutX="249.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="128.994140625">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="nomePai" layoutX="269.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pai">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="nomeFilho01" layoutX="354.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filho 01" visible="false">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="nomeFilho02" layoutX="167.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filho 02" visible="false">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="nomeFilho03" layoutX="266.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filho 03" visible="false">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="nomeNeto02" layoutX="354.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neto 02" visible="false">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="nomeNeto01" layoutX="138.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neto 01" visible="false">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="nomeBisneto" layoutX="238.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bisneto" visible="false">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
